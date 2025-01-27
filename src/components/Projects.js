@@ -11,13 +11,13 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "WD Compiler",
+      description: "A React-based live code editor that lets users instantly preview HTML, CSS, and JavaScript in real-time, perfect for testing and learning web development.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Mock AI",
+      description: "An AI-powered platform that simulates mock interviews, providing real-time feedback on your performance. It helps users improve their interview skills by analyzing responses and offering personalized suggestions for improvement." ,
       imgUrl: projImg2,
     },
   ];
