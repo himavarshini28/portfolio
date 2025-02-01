@@ -46,7 +46,7 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
-
+  const resume = "https://drive.google.com/file/d/181VOM3nDBpyjoqbXdgTL_EcunRlZ90lJ/view?usp=sharing";
   return (
     <section className="banner" id="home">
       <Container>
@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline" onClick={()=>{window.open("https://drive.google.com/file/d/1Knjb-JIkZRtPo-04cJOCIJ89b0M_Vd8w/view?usp=sharing","_blank")}}>My Resume</span>
+                <span className="tagline" onClick={()=>{window.open(resume,"_blank")}}>My Resume</span>
                 <h1>{`Hi! I'm HimaVarshini`} <div className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Tech Explorer" ]'><span className="wrap">{text}</span></div></h1>
                   <p>MERN Full Stack Developer skilled in React and Next.js. Passionate about problem-solving and building efficient web apps. Actively learning and growing with the developer community as a GDG OnCampus Lead.🚀</p>
               </div>}
