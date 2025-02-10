@@ -46,7 +46,7 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
-  const resume = "https://drive.google.com/file/d/181VOM3nDBpyjoqbXdgTL_EcunRlZ90lJ/view?usp=sharing";
+  const resume = "https://drive.google.com/file/d/1Q_KlZycJFTPN2XqOjAavTzyDLPrd8X9J/view?usp=sharing";
   return (
     <section className="banner" id="home">
       <Container>
